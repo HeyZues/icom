@@ -1,0 +1,21 @@
+RewriteEngine On
+
+RewriteRule ^inicio/ site/index.php [L,NC]
+RewriteRule ^nosotros/ site/index.php?p=nosotros [L,NC]
+RewriteRule ^proyectos/ site/index.php?p=proyectos [L,NC]
+
+RewriteRule ^servicios/ site/index.php?p=servicios [L,NC]
+RewriteRule ^servicios-cimentacion/ site/index.php?p=servicios&t=1 [L,NC]
+RewriteRule ^servicios-construccion/ site/index.php?p=servicios&t=2 [L,NC]
+RewriteRule ^servicios-ingenieria/ site/index.php?p=servicios&t=3 [L,NC]
+RewriteRule ^servicios-contra-incendios/ site/index.php?p=servicios&t=4 [L,NC]
+RewriteRule ^servicios-areas-verdes/ site/index.php?p=servicios&t=5 [L,NC]
+RewriteRule ^servicios-superficies/ site/index.php?p=servicios&t=6 [L,NC]
+RewriteRule ^servicios-plataformas/ site/index.php?p=servicios&t=7 [L,NC]
+RewriteRule ^servicios-carpinteria/ site/index.php?p=servicios&t=8 [L,NC]
+
+RewriteRule ^contacto/ site/index.php?p=contacto [L,NC]
+RewriteRule ^contacto_envio/ site/contacto.php [L,NC]
+RewriteRule ^contacto_ok/ site/index.php?p=contacto&result=1 [L,NC]
+RewriteRule ^contacto_error/ site/index.php?p=contacto&result=2 [L,NC]
+
